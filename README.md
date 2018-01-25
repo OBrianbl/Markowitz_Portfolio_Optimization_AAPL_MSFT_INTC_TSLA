@@ -1,6 +1,5 @@
 # Markowitz_Portfolio_Optimization_AAPL_MSFT_INTC_TSLA
 
-
 ## The problem definition: 
     With new tech companies emerging everyday, which four companies should I
     build my Tech Portfolio with? Given those four choosen, how can I optimize
@@ -65,3 +64,4 @@
     combinations of weights to obtain the Markowitz Efficient Frontier. This will 
     allow us to choose the portfolio with the combination of weights that produces
     the lowest expected volatility and the highest expected return.
+<a href="https://obrianbl.github.io/">Return to Main Page</a>
