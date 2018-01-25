@@ -131,6 +131,10 @@ port_data.name = 'portfolio'
 # ------NOTE: check this agains yahoo to make sure information is correct-----#
 port_data = import_stock_data(port_data, tickers, s_d) 
 
+# add name to DataFrame
+port_data.name = 'portfolio'
+
+
 # check the first and last few rows and infor for port_data
 print_head_tail_info_df(port_data)
 
@@ -142,8 +146,12 @@ print_head_tail_info_df(port_data)
 # all stocks as if they all started at 100
 # create line chart of data to compare behavior of stocks
 (port_data/port_data.iloc[0]*100).plot(figsize = (15,6))
+plt.savefig('Line-Chart_Compare_Behvior.pdf', 
+    bbox_inches = 'tight', dpi=None, facecolor='w', edgecolor='b', 
+    orientation='portrait', papertype=None, format=None, 
+    transparent=True, pad_inches=0.25, frameon=None)
 plt.show()
-
+plt.close()
 
 ##############################################################################
 #            Calcualting The Return of Portfolio Securities                  #
@@ -239,7 +247,7 @@ portfolios.plot(x='Volatility', y ='Return', kind = 'scatter', figsize = (10, 6)
 plt.title('Markowitz Efficient Frontier (AAPL, INTL, MSFT, TSLA)')
 plt.xlabel('Expected Volatility')
 plt.ylabel('Expected Return')
-plt.savefig('Markowitz-Efficient-Frontier.pdf', 
+plt.savefig('Markowitz-Efficient-Frontier_pdf.pdf', 
     bbox_inches = 'tight', dpi=None, facecolor='w', edgecolor='b', 
     orientation='portrait', papertype=None, format=None, 
     transparent=True, pad_inches=0.25, frameon=None)
