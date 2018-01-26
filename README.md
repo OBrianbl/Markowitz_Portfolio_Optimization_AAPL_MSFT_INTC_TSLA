@@ -64,8 +64,10 @@
     combinations of weights to obtain the Markowitz Efficient Frontier. This will 
     allow us to choose the portfolio with the combination of weights that produces
     the lowest expected volatility and the highest expected return.<br><br>
-    
-## Visual Frontier
-<img src =  "https://github.com/OBrianbl/Markowitz_Portfolio_Optimization_AAPL_MSFT_INTC_TSLA/blob/master/Line-Chart-Compare-Behavior.png"/>
-<img src = "https://github.com/OBrianbl/Markowitz_Portfolio_Optimization_AAPL_MSFT_INTC_TSLA/blob/master/Markowitz-Efficient-Frontier.png"/>
+## Line Chart-Secruties Trends
+
+<img src="Line-Chart-Compare-Behavior.png>
+## Markowitz Efficient Fronteer Visualized
+<img src="Markowitz-Efficient-Frontier.png">
+<br><br>
 <a href="https://obrianbl.github.io/">Return to Main Page</a>
