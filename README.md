@@ -68,6 +68,7 @@
     
 ## Line Chart-Secruties Trends
 <img src="Line-Chart-Compare-Behavior.png">
+
 ## Markowitz Efficient Fronteer Visualized
 <img src="Markowitz-Efficient-Frontier.png">
 <br><br>
